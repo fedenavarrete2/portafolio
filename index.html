@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio - Federico Navarrete</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Oswald:wght@700&family=Pacifico&family=Permanent+Marker&family=Tapestry&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="estilo.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Oswald:wght@700&family=Pacifico&family=Permanent+Marker&family=Tapestry&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/81e7ee3954.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,65 +14,267 @@
     <h1>FEDERICO NAVARRETE</h1>
     <nav>
       <ul class="nav">
-        <li><a href="">INICIO</a></li>
-        <li><a href="">SOBRE MI</a></li>
-        <li><a href="">SERVICIOS</a></li>
-        <li><a href="">SKILLS</a></li>
-        <li><a href="">PORTAFOLIO</a></li>
-        <li><a href="">CONTACTO</a></li>
+        <li><a class="indice" href="#inicio">INICIO</a></li>
+        <li><a class="indice" href="#sobre-mi">SOBRE MI</a></li>
+        <li><a class="indice" href="#servicios">SERVICIOS</a></li>
+        <li><a class="indice" href="#skills">SKILLS</a></li>
+        <li><a class="indice" href="#portafolio">PORTAFOLIO</a></li>
+        <li><a class="indice" href="#contacto">CONTACTO</a></li>
       </ul>
     </nav>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="hamburguesa" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
     <ul class="iconos">
-       <li class="icon"><a href=""><i class="fab fa-github"></i></a></li>
-       <li class="icon"><a href=""><i class="fab fa-instagram"></i></a></li>
-       <li class="icon"><a href=""><i class="fab fa-linkedin"></i></a></li>
+       <li class="icon"><a class="a-icono" href="https://github.com/fedenavarrete2" target="_blank"><i class="fab fa-github"></i></a></li>
+       <li class="icon"><a class="a-icono" href="https://www.instagram.com/fedenavarrete1/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+       <li class="icon"><a class="a-icono" href="https://www.linkedin.com/in/federico-navarrete-7b13b723a/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
     </ul>
  </header>
 <!-- PARTE UNO -->
+  <div  class="contenedor-uno">
     <div class="contenedor">
       <div class="contenedor-texto">
         <h2 class="main-h2">HOLA, YO SOY FREELANCER</h2>
-        <h1 class="main-h1">DEVELOPER</h1>
+        <h1 class="main-h1">DEVELOPER<hr class="main-hr"></h1>
         <h3 class="main-h3">Córdoba, Argentina.</h3>
-        <button class="boton"><a class="a-boton" href="">Ver Mis Trabajos</a></button>
-        <p class="main-p"><a class="main-a" href="">Contáctame</a></p>
+        <div class="main-boton">
+        <button class="boton"><a class="a-boton" href="#portafolio">Ver Mis Trabajos</a></button>
+        <p class="main-p"><a class="main-a" href="#contacto">Contáctame<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icono-1" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+        </svg></a></p>
+        </div>
       </div>
       <div class="contenedor-imagen">
-        <img src="imagen.jpg" alt="">
+        <img class="imagen" src="imagen.jpg" alt="">
       </div>
     </div>
+      <div class="arrow-up">
+       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icono-2" viewBox="0 0 16 16">
+       <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+       </svg>
+      </div>
+  </div>
 <!-- PARTE DOS -->
     <div class="contenedor-dos">
+         <p class="dos-p" id="sobre-mi">Sobre Mí</a></p>
         <h1 class="dos-h1">Conoceme más</h1>
      <div class="container-dos">
       <div class="contenedor-dos-texto">
-        <h2 class="dos-h2">Hola, yo soy Federico Navarrete</h2>
-        <p class="dos-p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod incidunt, rerum sed delectus voluptatibus excepturi, recusandae unde atque nihil nobis enim impedit tempore minima beatae porro magni error debitis culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odit architecto dignissimos cum sit at ab magnam, enim maxime modi, soluta placeat sequi nam animi a. Voluptatibus modi expedita nam!</p>
-      <div class="asd"></div>
+        <div class="titulo-dos">
+        <p class="dos-p2">Hola, yo soy </p><h2 class="dos-h2">Federico Navarrete</h2>
+        </div>
+        <p class="dos-p1">Soy un diseñador y desarrollador apasionado por el diseño web. Disfruto desarrollando sitios web simples, limpios y elegantes que brinden un valor real al usuario final. Miles de clientes han obtenido resultados excepcionales trabajando conmigo. Nuestro lema es entregar el trabajo dentro del tiempo y el presupuesto que cumpla con los requisitos del cliente.</p>
       </div>
-      <div class="contenedor-dos-foto">
-         <p>22</p>
-      </div>
+        <div class="dos-foto">
+          <p class="p-foto">20</p>
+           <p class="p-foto2">Años</p>
+        </div>
      </div>
 <!-- PREGUNTAS Y RESPUESTAS-->
       <div class="contenedor-preguntas">
         <div class="container-preguntas">
-          <p class="p-pregunta">Nombre</p>
+          <p class="p-pregunta">Nombre:</p>
           <p class="p-respuesta">Federico Navarrete</p> 
         </div>
         <div class="container-preguntas2">
-          <p class="p-pregunta">Email</p>
+          <p class="p-pregunta">Email:</p>
           <p class="p-respuesta">fedenavarrete02@gmail.com</p> 
         </div>
         <div class="container-preguntas3">
-          <p class="p-pregunta">Fecha de nacimiento</p>
+          <p class="p-pregunta">Fecha de nacimiento:</p>
           <p class="p-respuesta">07/01/2002</p> 
         </div>
         <div class="container-preguntas4">
-          <p class="p-pregunta">Lugar</p>
+          <p class="p-pregunta">Lugar:</p>
           <p class="p-respuesta">Córdoba, Argentina</p> 
         </div>
       </div>
     </div>
+<!-- TERCER COLUMNA -->
+    <div class="contenedor-tres">
+        <p class="tres-p"><a class="referido" id="servicios">Lo Que Hago</a></p>
+        <h1 class="tres-h1">Cómo puedo ayudar a su próximo proyecto</h1>
+       <div class="contenedor-3">
+          <div class="center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="megafono" viewBox="0 0 16 16">
+            <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+            </svg>
+              <h3 class="tres-h3">Graphing Desing</h3>
+              <p class="p-contenedor3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti consequatur nobis nulla doloribus accusamus numquam soluta </p>
+          </div>
+          <div class="center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="megafono" viewBox="0 0 16 16">
+              <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1ZM10 8a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V8Zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4-3a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0v-3a1 1 0 0 1 1-1Z"/>
+            </svg>
+              <h3 class="tres-h3">Graphing Desing</h3>
+              <p class="p-contenedor3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti consequatur nobis nulla doloribus accusamus numquam soluta </p>
+          </div>
+          <div class="center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="megafono" viewBox="0 0 16 16">
+              <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04z"/>
+              </svg>
+              <h3 class="tres-h3">Graphing Desing</h3>
+              <p class="p-contenedor3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti consequatur nobis nulla doloribus accusamus numquam soluta </p>
+          </div>
+          <div class="center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="megafono" viewBox="0 0 16 16">
+              <path d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 .5.5v5.277l4.147-4.131a.5.5 0 0 1 .707 0l3.535 3.536a.5.5 0 0 1 0 .708L10.261 10H15.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H3a2.99 2.99 0 0 1-2.121-.879A2.99 2.99 0 0 1 0 13.044m6-.21 7.328-7.3-2.829-2.828L6 7.188v5.647zM4.5 13a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zM15 15v-4H9.258l-4.015 4H15zM0 .5v12.495V.5z"/>
+              <path d="M0 12.995V13a3.07 3.07 0 0 0 0-.005z"/>
+            </svg>
+              <h3 class="tres-h3">Graphing Desing</h3>
+              <p class="p-contenedor3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti consequatur nobis nulla doloribus accusamus numquam soluta </p>
+          </div>
+          <div class="center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="megafono" viewBox="0 0 16 16">
+              <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07zM8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+              <h3 class="tres-h3">Graphing Desing</h3>
+              <p class="p-contenedor3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti consequatur nobis nulla doloribus accusamus numquam soluta </p>
+          </div>
+          <div class="center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="megafono" viewBox="0 0 16 16">
+              <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+              </svg>
+              <h3 class="tres-h3">Graphing Desing</h3>
+              <p class="p-contenedor3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti consequatur nobis nulla doloribus accusamus numquam soluta </p>
+          </div>
+        </div>
+    </div>
+<!-- CUARTA COLUMNA -->
+    <div class="contenedor-cuatro">
+        <p class="cuatro-p"><a class="referido" id="skills">Currículum</a></p>
+         <h1 class="cuatro-h1">Un resumen de mi Currículum</h1>
+      <div class="curriculum">
+          <div  class="div-hr-contenedor4">
+               <hr class="hr-contenedor4">
+          </div>
+          <div class="curriculum-1">
+             <h2 class="curriculum-h2">Mi Educación</h2>
+             <h3 class="curriculum-h3">Secundario Completo</h3>
+             <h4 class="curriculum-h4">Harvar University /2015 2017</h4>
+             <p class="curriculum-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, corrupti. Id error enim corrupti a distinctio iure voluptatem in, cumque commodi minima laborum eaque</p><hr class="hr-2">
+             <h3 class="curriculum-h3">Desarrollo Web Front-End</h3>
+             <h4 class="curriculum-h4">Universidad Tecnologica Nacional - La Plata</h4>
+             <p class="curriculum-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam libero deleniti</p><hr class="hr-2">
+             <h3 class="curriculum-h3">Codo a Codo</h3>
+             <h4 class="curriculum-h4">Harvar University /2015 2017</h4>
+             <p class="curriculum-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam libero deleniti</p>
+          </div>
+          <div  class="div-hr-contenedor4-parte2">
+               <hr class="hr-contenedor4-parte2">
+          </div>
+          <div class="curriculum-2">
+             <h2 class="curriculum-h2">Mi Experiencia</h2>
+             <h3 class="curriculum-h3">Web de Juegos</h3>
+             <h4 class="curriculum-h4">Juegardos.net</h4>
+             <p class="curriculum-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam libero deleniti quasi? Quos laborum beatae quae, nam similique ut vero</p><hr class="hr-2">
+             <h3 class="curriculum-h3">Manuel Belgrano</h3>
+             <h4 class="curriculum-h4">Harvar University /2015 2017</h4>
+             <p class="curriculum-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam libero deleniti quasi? Quos laborum beatae quae, nam similique ut vero</p><hr class="hr-2">
+             <h3 class="curriculum-h3">Manuel Belgrano</h3>
+             <h4 class="curriculum-h4">Harvar University /2015 2017</h4>
+             <p class="curriculum-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam libero deleniti quasi? Quos laborum beatae quae, nam similique ut vero</p>
+          </div>
+      </div>
+    </div>
+          <div class="skills">
+            <h2 class="h2-skills">Mi Skills</h2>
+          <div class="contenedor-2">
+            <div class="habilidades">
+              <div class="text-habilidades">
+                    <h3 class="h3-habilidades">Web Desing</h3>
+                    <h3 class="h3-porcentajes">50%</h3>
+              </div>
+              <div class="barra">
+                <div class="progreso"></div>
+              </div>
+            </div>
+            <div class="habilidades">
+              <div class="text-habilidades">
+               <h3 class="h3-habilidades">HTML/CSS</h3>
+               <h3 class="h3-porcentajes">50%</h3>
+              </div>
+              <div class="barra2">
+                <div class="progreso2"></div>
+              </div>
+            </div>
+            <div class="habilidades">
+              <div class="text-habilidades">
+               <h3 class="h3-habilidades">JavaScript</h3>
+               <h3 class="h3-porcentajes">50%</h3>
+              </div>
+              <div class="barra3">
+                <div class="progreso3"></div>
+              </div>
+            </div>
+            <div class="habilidades">
+              <div class="text-habilidades">
+               <h3 class="h3-habilidades2">NodeJs</h3>
+               <h3 class="h3-porcentajes2">50%</h3>
+              </div>
+              <div class="barra4">
+                <div class="progreso4"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="div-button-cv">
+            <button class="boton-cv"><a class="a-curriculum" href="">Descargar CV</a></button>
+      </div>
+<!-- QUINTA COLUMNA -->
+    <div class="contenedor-cinco">
+        <p class="cinco-p"><a class="referido" id="portafolio">Portafolío</a></p>
+         <h1 class="cinco-h1">Algunos de mis proyectos más recientes</h1>
+      <div class="galeria">
+          <div class="imagen-galeria2"><img class="imagen-galeria" src="galeria1.jpg" alt=""></div>
+          <div class="imagen-galeria2"><img class="imagen-galeria" src="galeria2.jpg" alt=""></div>
+          <div class="imagen-galeria2"><img class="imagen-galeria" src="galeria3.jpg" alt=""></div>
+          <div class="imagen-galeria2"><img class="imagen-galeria" src="galeria4.jpg" alt=""></div>
+          <div class="imagen-galeria2"><img class="imagen-galeria" src="galeria5.jpg" alt=""></div>
+          <div class="imagen-galeria2"><img class="imagen-galeria" src="galeria6.jpg" alt=""></div>
+      </div>
+    </div>
+<!-- SEXTA COLUMNA -->
+    <div class="contenedor-seis"> 
+      <div class="contacto-texto">
+         <h3 class="h3-contacto"><a class="a-contacto" id="contacto">Mantengámonos en contacto</a></h3>
+          <p class="p-contacto-parte1">Disfruto discutir nuevos proyectos y desafíos de diseño. Comparta tanta información como sea posible para que podamos aprovechar al máximo nuestra primera puesta al día.</p>
+         <h4 class="h4-contacto">Living In:</h4>
+          <p class="p-contacto">Alto alberdi, Córdoba, Argentina.</p> 
+         <h4 class="h4-contacto">Telefóno:</h4>
+          <p class="p-contacto">(+54)03516294144</p> 
+          <ul class="iconos-2">
+            <li class="icon-2"><a class="a-icono2" href="https://www.linkedin.com/in/federico-navarrete-7b13b723a/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="class-icono" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg></a></li>
+            <li class="icon-2"><a class="a-icono2"  href="https://www.instagram.com/fedenavarrete1/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="class-icono" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg></a></li>
+            <li class="icon-2"><a class="a-icono2" target="_blank" href="https://github.com/fedenavarrete2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="class-icono" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg></a></li>
+          </ul>
+      </div>
+      <div class="contacto-texto2">
+         <h3 class="h3-contacto2">Contame sobre tu proyecto:</h3>
+        <form action="">
+         <label class="" for="">Ingrese su nombre completo:</label>
+         <input type="text" name="Nombre Completo">
+         <label for="">Ingrese su email:</label>
+         <input type="text" name="Email">
+         <label>Comentario:</label>
+         <textarea name="Comentario"></textarea>
+         <button class="boton-contacto" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  <footer>
+    <div class="pie-de-pagina">
+       <p class="p-footer">Copyright © 2022. Todos los Derechos Reservados</p>
+       <p class="p-footer2">Designed by Federico Navarrete</p>
+    </div>
+  </footer>
 </body>
 </html>
